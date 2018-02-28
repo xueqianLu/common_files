@@ -1,0 +1,7 @@
+### custom setting
+### luxq
+alias vi='vim'
+LOCAL_USR=$HOME/usr
+PS1='\[\033[36;1m\]\u\[\033[00m\]@\[\033[33;1m\]\h:\[\033[35;1m\]\W\[\033[32;1m\]\$\[\033[00m\]'
+
+

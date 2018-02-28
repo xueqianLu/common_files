@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/zhangqitree/code/plugin'
+let g:netrw_dirhist_2='/data/201504/1613/1112'
+let g:netrw_dirhist_3='/data/201504/1616/3950'
+let g:netrw_dirhist_4='/data/201504/1710/2735'
+let g:netrw_dirhist_5='/data/201504/2010/2934'
