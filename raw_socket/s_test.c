@@ -1,4 +1,4 @@
-// Last Update:2018-03-23 14:45:55
+// Last Update:2018-04-08 11:04:16
 /**
  * @file client.cpp
  * @brief 
@@ -32,9 +32,11 @@ struct socks {
 
 unsigned char source_mac[6] = {0};
 
-const unsigned char d_mac_1[6] = {0xb0,0xd5,0xcc,0x45,0x19,0xc9}; // arm
+const unsigned char d_mac_1[6] = {0xb0,0xd5,0xcc,0x45,0x19,0xc9}; // arm-demo
 const unsigned char d_mac_2[6] = {0x00,0x0c,0x29,0x8b,0xe1,0xd8}; // vm
 const unsigned char d_mac_3[6] = {0xe4,0x70,0xb8,0x42,0x65,0x1c}; // pc
+const unsigned char d_mac_4[6] = {0x0c,0xb2,0xb7,0xae,0x0c,0x43}; // arm-eth0
+const unsigned char d_mac_5[6] = {0x0c,0xb2,0xb7,0xae,0x0c,0x45}; // arm-eth1
 
 int create_sockets(char *ethname)
 {
@@ -126,6 +128,10 @@ int main(int argc, char *argv[])
         memcpy(whdr->h_dest, d_mac_2, ETH_ALEN);
     else if (client == 2)
         memcpy(whdr->h_dest, d_mac_3, ETH_ALEN);
+    else if (client == 3)
+        memcpy(whdr->h_dest, d_mac_4, ETH_ALEN);
+    else if (client == 4)
+        memcpy(whdr->h_dest, d_mac_5, ETH_ALEN);
 
     memcpy(whdr->h_source, source_mac, ETH_ALEN);
     whdr->h_proto = htons(PROTOCOL_TYPE);
