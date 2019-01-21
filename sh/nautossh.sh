@@ -1,15 +1,8 @@
 #!/bin/bash
 
 # 本脚本用于ubuntu下为集群机器配置免密登录
-for port in {0..9}
-do
-    rport="5000$port"
-    ip="222.128.104.75"
-    user=hpb
-    passwd=hpb123456
-done
 
-SERVERS="222.128.104.75:50006 222.128.104.75:50000 222.128.104.75:50001 222.128.104.75:50002 222.128.104.75:50002 222.128.104.75:50003 222.128.104.75:50004 222.128.104.75:50005"
+SERVERS="221.194.153.107:22 221.194.153.108:22 221.194.153.109:22 222.222.12.3:22 222.222.12.4:22 222.222.12.13:22 111.63.48.11:22 111.63.48.12:22 111.63.48.13:22 47.75.213.166:22"
 USER=hpb
 PASSWORD=hpb123456
 
@@ -43,6 +36,16 @@ ssh_copy_id_to_all() {
     done
 }
 
+copy_file_to_all() {
+    for SERVER in $SERVERS
+    do
+        IP=`echo $SERVER | cut -f1 -d:`
+        PORT=`echo $SERVER | cut -f2 -d:`
+        scp -P $PORT $1 $USER@$IP:~/
+    done
+}
 # copy id to local.
-ssh_copy_id_to_all
+#ssh_copy_id_to_all
+#copy_file_to_all ntp-4.2.8p12.tar.gz
+copy_file_to_all install.sh
 
