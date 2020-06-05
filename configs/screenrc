@@ -64,6 +64,7 @@ bind } history
 # The vt100 description does not mention "dl". *sigh*
 termcapinfo vt100 dl=5\E[M
 
+attrcolor b ".I"    # 允许加粗色彩--由于某些原因是必须的
 # turn sending of screen messages to hardstatus off
 hardstatus on
 # Set the hardstatus prop on gui terms to set the titlebar/icon title
