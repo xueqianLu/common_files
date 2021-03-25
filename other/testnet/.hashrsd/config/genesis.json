@@ -1,0 +1,598 @@
+{
+  "genesis_time": "2021-02-22T08:14:16.419059311Z",
+  "chain_id": "12069001",
+  "consensus_params": {
+    "event": {
+      "max_gas": "-1",
+      "max_bytes": "131072",
+      "time_iota_ms": "1000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "mint": {
+      "minter": {
+        "latest_block_time": "0001-01-01T00:00:00Z",
+        "inflation": "0.130000000000000000",
+        "annual_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "bitc",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "bank": {
+      "send_enabled": true
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "bitc",
+        "amount": "1000"
+      }
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 10,
+        "max_entries": 7,
+        "historical_entries": 0,
+        "bond_denom": "bitc"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "params": null,
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "type": "hashrs/MainAccount",
+          "value": {
+            "name": "",
+            "address": "hashrs1prjfd94ugkxywtqr24apj0mt4ulgra0wfc7xnm",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "bitc",
+                "amount": "20000000000000000000000000"
+              },
+              {
+                "denom": "btc",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "eos",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "eth",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "ont",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "usdt",
+                "amount": "2000000000000000000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "",
+            "ethAddress": "0x08e49696bc458c472c03557a193f6baf3e81f5ee"
+          }
+        },
+        {
+          "type": "hashrs/MainAccount",
+          "value": {
+            "name": "",
+            "address": "hashrs130a0d8t3pu0ywqhgmn2hr8a0g45acs8cuwa05k",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "bitc",
+                "amount": "20000000000000000000000000"
+              },
+              {
+                "denom": "btc",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "eos",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "eth",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "ont",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "usdt",
+                "amount": "2000000000000000000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "",
+            "ethAddress": "0x8bfaf69d710f1e4702e8dcd5719faf4569dc40f8"
+          }
+        },
+        {
+          "type": "hashrs/MainAccount",
+          "value": {
+            "name": "",
+            "address": "hashrs13zhrumg84a49lfa40eu6apwhe84j5jhw572h4n",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "bitc",
+                "amount": "20000000000000000000000000"
+              },
+              {
+                "denom": "btc",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "eos",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "eth",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "ont",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "usdt",
+                "amount": "2000000000000000000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "",
+            "ethAddress": "0x88ae3e6d07af6a5fa7b57e79ae85d7c9eb2a4aee"
+          }
+        },
+        {
+          "type": "hashrs/MainAccount",
+          "value": {
+            "name": "",
+            "address": "hashrs1rcwu84aqct4vnl3mszry3mvxdf4k87r3umsgwf",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "bitc",
+                "amount": "20000000000000000000000000"
+              },
+              {
+                "denom": "btc",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "eos",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "eth",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "ont",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "usdt",
+                "amount": "2000000000000000000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "",
+            "ethAddress": "0x1e1dc3d7a0c2eac9fe3b808648ed866a6b63f871"
+          }
+        },
+        {
+          "type": "hashrs/MainAccount",
+          "value": {
+            "name": "",
+            "address": "hashrs1p5eg0kv25fct7h7rn26zz0ue3yzcmx9ruww7vq",
+            "sub_addresses": null,
+            "coins": [
+              {
+                "denom": "bitc",
+                "amount": "20000000000000000000000000"
+              },
+              {
+                "denom": "btc",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "eos",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "eth",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "ont",
+                "amount": "2000000000000000000000000"
+              },
+              {
+                "denom": "usdt",
+                "amount": "2000000000000000000000000"
+              }
+            ],
+            "public_key": null,
+            "account_number": 0,
+            "sequence": 0,
+            "code_hash": "",
+            "ethAddress": "0x0d3287d98aa270bf5fc39ab4213f9989058d98a3"
+          }
+        }
+      ]
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "bitc",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "172800000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "evm": {
+      "accounts": null,
+      "SubCoins": [
+        {
+          "name": "btc",
+          "symbol": "btc",
+          "totalSupply": "10000000000000000000000000",
+          "decimals": 18,
+          "address": "0x0000000000000000000000000000000000000010"
+        },
+        {
+          "name": "eos",
+          "symbol": "eos",
+          "totalSupply": "10000000000000000000000000",
+          "decimals": 18,
+          "address": "0x0000000000000000000000000000000000000011"
+        },
+        {
+          "name": "eth",
+          "symbol": "eth",
+          "totalSupply": "10000000000000000000000000",
+          "decimals": 18,
+          "address": "0x0000000000000000000000000000000000000012"
+        },
+        {
+          "name": "ont",
+          "symbol": "ont",
+          "totalSupply": "10000000000000000000000000",
+          "decimals": 18,
+          "address": "0x0000000000000000000000000000000000000013"
+        },
+        {
+          "name": "usdt",
+          "symbol": "usdt",
+          "totalSupply": "10000000000000000000000000",
+          "decimals": 18,
+          "address": "0x0000000000000000000000000000000000000014"
+        }
+      ]
+    },
+    "punishment": {},
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "supply": {
+      "supply": []
+    },
+    "iam": {},
+    "genutil": {
+      "gentxs": [
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "bitc-testnet",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "hashrs1p5eg0kv25fct7h7rn26zz0ue3yzcmx9ruww7vq",
+                  "validator_address": "hashrsvaloper1p5eg0kv25fct7h7rn26zz0ue3yzcmx9rsmalkc",
+                  "pubkey": "hashrsvalconspub1mznpzapq2yzjcknt5xh6hd55clsjhfqg344559gpafc9zhzhrsy6a7m4l3gqe3qw0z",
+                  "value": {
+                    "denom": "bitc",
+                    "amount": "5000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BN1iAhi3cpJg/shtNyDidXGqb49qNBctNpslZW75nnMfgMRzXJ0G4IKBexiTYDKV8GQxkqFKpdCX9GkLXNEITvE="
+                },
+                "signature": "ca1tlg8Gf254PomARfC++s0VRJct3trTzVNSb/6yhHQVp1R8UDvN3OWSgLruaFtttir1UpxEEXlbBK3mieiM3wA="
+              }
+            ],
+            "memo": "2ea51638e8beb34bf76e90961a6cd9b556a1719c@172.31.46.7:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "bitc-testnet",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "hashrs130a0d8t3pu0ywqhgmn2hr8a0g45acs8cuwa05k",
+                  "validator_address": "hashrsvaloper130a0d8t3pu0ywqhgmn2hr8a0g45acs8csmwwww",
+                  "pubkey": "hashrsvalconspub1mznpzapqmwxmgp0m8att7gr38ct09xl7s4xr8s09f7y2e7d4cjg535567u9ss5xyu9",
+                  "value": {
+                    "denom": "bitc",
+                    "amount": "5000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BIXCrbU4+25CWmQX/Rr/F4in57v2Rt5g8Hre3us4sFdNV6NfPRTB901cfc9eDY8YwIVoAfDfnW43G9F6etStKO8="
+                },
+                "signature": "rZU6IRrm4bwVeyH71q+VYgHnyxiSRIPaEcuKp8jrUiMc1QLLQnQco+3rK/KfoabVw9pehHZXyoOMfTShqgdTagE="
+              }
+            ],
+            "memo": "3d1de247b1c96e62e607ca4d713fa2da8e7381ec@172.31.6.42:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "bitc-testnet",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "hashrs1prjfd94ugkxywtqr24apj0mt4ulgra0wfc7xnm",
+                  "validator_address": "hashrsvaloper1prjfd94ugkxywtqr24apj0mt4ulgra0w9dd8fr",
+                  "pubkey": "hashrsvalconspub1mznpzapq6tyzzkzpyu4uyungwkj5fxvjnwz3zl3q862r97ct2urftm39qnfqjlxrcy",
+                  "value": {
+                    "denom": "bitc",
+                    "amount": "5000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BOxKvB3bNzWhDbROMLqxqWDNitDs9CsMOhvvVaRKjGP20sWKmp597yWDyetP5YAwiacXj05ka6mrFBnd4keGmbw="
+                },
+                "signature": "TFrnvgZBviztoT+AWmQHv32L8ZEs9YTme8ivRkP7F3tcevzZNEOdnuN0Wb2HECCS4ELNitTEVTvo7ZO+9I6oKwA="
+              }
+            ],
+            "memo": "bd8034e832a2afe6ab171b593de1fcccaab679f0@172.31.4.104:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "bitc-testnet",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "hashrs13zhrumg84a49lfa40eu6apwhe84j5jhw572h4n",
+                  "validator_address": "hashrsvaloper13zhrumg84a49lfa40eu6apwhe84j5jhwctek0t",
+                  "pubkey": "hashrsvalconspub1mznpzapqtpj0g85zg8fd9xrmlrwwtzyp6knlf8570ez39a2kq7svt67an9yqgr844p",
+                  "value": {
+                    "denom": "bitc",
+                    "amount": "5000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BF0sXxytPtz0qE+vy7KSv4y1MVOF9QsEbL/e43rbAbzKlX431JP+ZYYVMUWSmlze8EuHFQin7SNDEsGX/jRO5vM="
+                },
+                "signature": "UwsMrvou83/OeTbcgx/r/QlCqlURU5mTIBSsNFkQlbAAoK6a4d1ou9+HA0pz1l20mjMb7lVHrxJwLOdzrML4mwE="
+              }
+            ],
+            "memo": "e942087a716d00f403f068b4358a9a507eacec59@172.31.12.252:26656"
+          }
+        },
+        {
+          "type": "cosmos-sdk/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "cosmos-sdk/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "bitc-testnet",
+                    "identity": "",
+                    "website": "",
+                    "security_contact": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.010000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "hashrs1rcwu84aqct4vnl3mszry3mvxdf4k87r3umsgwf",
+                  "validator_address": "hashrsvaloper1rcwu84aqct4vnl3mszry3mvxdf4k87r3swrf53",
+                  "pubkey": "hashrsvalconspub1mznpzapqljp9ertdg5vmdjzqcz72x8rkpes6esgp0c2e0wyhj78ha89r0p6sskt3st",
+                  "value": {
+                    "denom": "bitc",
+                    "amount": "5000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "crypto/PubKeySecp256k1",
+                  "value": "BPtL50RtTP6h4TgbUZE4R9HYdCSDmihNh2iif/oFcPhSzepXyMXdbu+GUaj7FvgCRcVkvXUgTFIZGc7++TJw09M="
+                },
+                "signature": "s7Ei+EWo7n4VrTQVGNnjs++JvU3JJHmQ0xNc9jeL+2E6fgNLT81v427KVDjCBTYRyZtTbQwI561B0sc8vfXsVAE="
+              }
+            ],
+            "memo": "f909b49af1cfdfe52c959611306dd0f556fc39e1@172.31.47.156:26656"
+          }
+        }
+      ]
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": []
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    }
+  }
+}

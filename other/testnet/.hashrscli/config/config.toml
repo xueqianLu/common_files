@@ -1,0 +1,5 @@
+chain-id = "12069001"
+indent = true
+keyring-backend = "file"
+output = "json"
+trust-node = true

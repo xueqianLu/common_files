@@ -1,0 +1,11 @@
+{
+  "address": "F0884C0CB397EC6204CEF4A18260D447888D2FC1",
+  "pub_key": {
+    "type": "hashrs/PubKeyEd25519",
+    "value": "jLVDGsANZH/JnbZaEsi4q2Lt3otPJ0qapNLQY0JwpfI="
+  },
+  "priv_key": {
+    "type": "hashrs/PrivKeyEd25519",
+    "value": "ieQQFklf8Va2epA76IrjGxjbOW5Kz3NT4qXf+pIrrOiMtUMawA1kf8mdtloSyLirYu3ei08nSpqk0tBjQnCl8g=="
+  }
+}
